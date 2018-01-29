@@ -4,16 +4,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Abogalandia</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 
-	<?php 
+	<?php
 		$username =  isset($_POST['username']) ? $_POST['username'] : '';
 		$email = isset($_POST['email']) ? $_POST['email'] : '';
 		$password = isset($_POST['password']) ? $_POST['password'] : '';
 		$enviar = isset($_POST['enviar']) ? $_POST['enviar'] : '';
 	?>
+	<header class="background">
+		<nav class="row">
+			<div class="col-md-12">
+				<img src="assets/images/logo.jpg" alt="">
+				<h1>Abogalandia</h1>
+			</div>
+		</nav>
+	</header>
 
 	<?php
 		if ($enviar == '') {
@@ -46,7 +56,7 @@
 
 		}
 	?>
-	
+
 
 </body>
 </html>

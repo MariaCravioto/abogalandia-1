@@ -2,7 +2,7 @@
 	include('conexion.php');
 	$user_id = $_GET['id'];
 	if (!$user_id) {
-		header('Location: index.php');
+		header('Location: login.php');
 	}
 	$mysqli = "SELECT id_user, username, email, password FROM usuarios WHERE id_user = $user_id";
 	$result = $db->query($mysqli);
@@ -29,7 +29,7 @@
 			Email: <?php echo $row['email']; ?> <br>
 			<hr>
 
-			<?php 
+			<?php
 				$row_id_user = $row['id_user'];
 				$mysqli = "SELECT id_post, id_user, post, url FROM publicaciones WHERE id_user = '$row_id_user' ORDER BY id_post DESC";
 				$result = $db->query($mysqli);
