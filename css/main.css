@@ -1,0 +1,212 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #010101;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+/* ----splash ----*/
+  .index-bg {
+    background-image: url("../assets/images/splash2.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .vh-total {
+    height: 100vh;
+  }
+
+  /*--- screen ---*/
+  .screen-login {
+    display: none;
+  }
+
+
+#container_new_post {
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: auto;
+	margin-left: 400px;
+}
+
+ .logo{
+  height: 7vh;
+  margin: 0
+}
+
+
+.background{
+  background: #015289;
+}
+
+.bkg-container {
+  background: #ffffff;
+}
+
+.bckg-perfil {
+  background-image: url(../assets/images/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+.post {
+  margin-top: 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+
+.sidenav {
+    left: 10px;
+    background: #fff;
+    padding: 8px 0;
+}
+
+.fa-post {
+margin: 10px 20px;
+cursor: pointer;
+color: #A1A19E;
+}
+
+.fa-heart:hover {
+	color: red;
+	opacity: 1;
+}
+
+.fa-comment:hover {
+  color: #1f68e4;
+  opacity: 1;
+}
+
+.fa-trash:hover {
+  color: #f0e716;
+  opacity: 1;
+}
+
+.fa-user-o {
+  margin: 10px 20px;
+  /* cursor: pointer;
+  color: #A1A19E; */
+}
+
+/* pantalla login */
+/* ---- xs ----*/
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 100px;
+}
+
+.back {
+  color: #2B75B5;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.btn-login {
+  background: linear-gradient(#2B75B5,#011014);
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.fa-login {
+ margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* ---- sm/md/lg ----*/
+.desktop {
+  font-size: 25px;
+}
+
+.desk > h1 {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.back-desk {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.btn-desk {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.click-desk > h6 {
+  font-size: 15px;
+}
+
+.form-desk {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.form-desk > .fa {
+  font-size: 25px;
+}
+
+/* pantalla registro */
+input {
+  margin-bottom: 20px;
+}
+
+.btn-registro {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.btn-log {
+  background: linear-gradient(#2B75B5,#011014);
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.btn-face {
+ background-color: #00008B;
+ margin-top: 20px;
+}
+
+.btn-goo {
+ background-color:#FF0000;
+}
+
+.btn-twi {
+ background-color: #1E90FF;
+}
+
+.back-desk {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.btn-desk {
+  margin-bottom: 40px;
+}
+
+.form-desk {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
